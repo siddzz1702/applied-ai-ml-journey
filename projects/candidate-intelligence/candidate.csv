@@ -1,0 +1,6 @@
+name,python,sql,excel,machine_learning
+Candidate A,1,1,1,0
+Candidate B,1,0,1,1
+Candidate C,0,1,1,1
+Candidate D,1,1,0,1
+Candidate E,0,1,0,0
