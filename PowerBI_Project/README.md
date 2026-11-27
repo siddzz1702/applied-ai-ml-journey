@@ -1,38 +1,70 @@
 # Power BI Portfolio — Business Intelligence & Data Analytics
 
-This portfolio contains three Power BI projects developed to demonstrate practical skills in data analysis, business intelligence, data visualisation, dashboard development, and business problem-solving.
+This repository contains three Power BI projects developed to demonstrate practical skills in data analysis, business intelligence, data visualisation, dashboard development, and business problem-solving.
 
-## Project 1 — Customer Service Performance & Call Centre Analytics
+Each project addresses a different business scenario, beginning with candidate data analysis and progressing through profitability analysis and banking operations performance.
 
-**Focus:** Customer Service Operations | Call Centre Analytics | Representative Performance
+## Projects
 
-An interactive report analysing 559 customer-service records across call volumes, incoming and outgoing activity, representative workload, time blocks, and North/South branch performance.
+### Project 1 — Candidate Intelligence Dashboard
 
-**Dashboard coverage:** customer-service overview, representative-level performance, peak 2 PM activity, and branch comparison.
+**Focus:** Candidate Data Analysis | Data Cleaning | Data Transformation | Dashboard Development
 
-[Open project files](PROJECT_01_Customer_Service/) · [Power BI report](PROJECT_01_Customer_Service/Customer_Service_Analytics.pbix) · [PDF](PROJECT_01_Customer_Service/Customer_Service_Analytics.pdf)
+Analyses candidate-related data to demonstrate how raw information can be validated, cleaned, transformed, and converted into meaningful insights.
 
-## Project 2 — Is Least Profitable Always Unprofitable?
+**Key areas covered:**
+- Data inspection and preparation.
+- Data cleaning and validation.
+- Candidate analysis and comparison.
+- Visualisation of relevant performance indicators.
+- Structured analytical reporting.
+
+### Project 2 — Is Least Profitable Always Unprofitable?
 
 **Focus:** Retail Analytics | Profitability Analysis | Geographical Visualisation
 
-Uses the Sample Superstore dataset to investigate product profitability across categories, individual products, US states, and quarterly periods from 2013 to 2016.
+Analyses the Sample Superstore dataset using Power BI to investigate product profitability across categories, individual products, geographical markets, and quarterly periods.
 
-**Dashboard coverage:** profit by category, ten least profitable items, profit by state, quarterly profit trend, and department filtering.
+**Key dashboard components:**
+- Overall Profit by Category.
+- Top 10 Least Profitable Items.
+- Profit by State.
+- Quarterly Profit Trend (2013–2016).
+- Department Filter.
 
-[Open project files](Project_02_Supersore/) · [Power BI report](Project_02_Supersore/Least_Profitable_Products_Analysis.pbix) · [PDF](Project_02_Supersore/Least_Profitable_Products_Analysis.pdf)
+**Central business question:**
 
-## Project 3 — Northstar Bank: Business Analysis & Transformation Dashboard
+Are the least profitable products consistently unprofitable, or does their profitability vary across geographical markets?
+
+The project demonstrates why aggregate profitability should not be the only basis for product and portfolio decisions.
+
+### Project 3 — Northstar Bank: Business Analysis & Transformation Dashboard
 
 **Focus:** Business Analysis | UAT | Requirements Traceability | Defect Management | Service Operations
 
-A two-page simulated banking case study combining requirements traceability, UAT execution, defect monitoring, service-request volumes, resolution time, and SLA classification.
+A simulated banking case study combining business analysis artefacts and operational reporting into a two-page Power BI dashboard.
 
-**Dashboard coverage:** UAT Executive Dashboard and Service Request Operations.
+**Page 1 — UAT Executive Dashboard**
+- Requirements tracking.
+- UAT test execution status.
+- Test pass rate.
+- Defect severity and status.
+- Requirements traceability and test coverage.
 
-**Simulation notice:** Northstar Bank and all associated requirements, test cases, defects, records, and results are fictional and generated for portfolio demonstration. They do not represent real banking operations, customer data, or production UAT.
+**Page 2 — Service Request Operations**
+- Total and resolved service requests.
+- SLA breach monitoring.
+- Average resolution time.
+- Service requests by category.
+- Resolution time by priority.
+- SLA outcomes by assigned team.
+- Interactive Category, Priority, and Branch filters.
 
-[Open project files](Project_03_Transform/) · [Power BI report](Project_03_Transform/Transform.pbix) · [PDF](Project_03_Transform/Transform.pdf)
+**Central business question:**
+
+How can a consolidated dashboard help stakeholders identify UAT execution risks and understand where service-request operations may require further investigation?
+
+**Important:** Northstar Bank and all associated data, requirements, test cases, defects, and results are simulated for portfolio demonstration. They do not represent real banking operations or actual production UAT.
 
 ## Tools & Technologies
 
@@ -46,12 +78,46 @@ A two-page simulated banking case study combining requirements traceability, UAT
 
 ## Skills Demonstrated
 
-Data preparation and validation, KPI development, dashboard design, business problem-solving, profitability and operational analysis, requirements traceability, User Acceptance Testing, defect tracking, SLA monitoring, and business reporting.
+- Data Analysis and Interpretation
+- Data Preparation and Validation
+- KPI Development
+- Dashboard Design
+- Business Problem-Solving
+- Profitability and Operational Analysis
+- Requirements Traceability
+- User Acceptance Testing (UAT)
+- Defect Tracking
+- SLA Monitoring
+- Business Reporting
 
-## Repository Contents
+## Repository Structure
 
-Each project folder contains its editable `.pbix` report and supporting source/documentation files. See the individual project folder for its full deliverables and project notes.
+```text
+PowerBI_Project/
+│
+├── Project_01_Candidate_Intelligence/
+│   ├── Dashboard.pbix
+│   ├── Dashboard.pdf
+│   ├── Readme.md
+│   └── Source_Data.xlsx
+│
+├── Project_02_Superstore/
+│   ├── Dashboard.pbix
+│   ├── Dashboard.pdf
+│   ├── Readme.md
+│   └── Superstore.xlsx
+│
+└── Project_03_Northstar_Bank/
+    ├── Dashboard.pbix
+    ├── Dashboard.pdf
+    ├── Readme.md
+    └── Source_Data.xlsx
+```
+
+*The filenames above illustrate the intended structure; actual filenames may differ.*
 
 ## Overall Learning Objective
 
-These projects demonstrate how data analytics and business intelligence can be applied to different business contexts—from call-centre performance and retail profitability to banking change/testing visibility and service operations. The aim is to translate raw data into structured analysis, meaningful visualisations, and useful business insights.
+These projects demonstrate the application of data analytics and business intelligence to different business contexts.
+
+From analysing candidate information and evaluating retail profitability to monitoring banking requirements, testing outcomes, and service operations, the portfolio reflects an ability to translate data into structured analysis, meaningful visualisations, and actionable business insights.
